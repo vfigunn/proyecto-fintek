@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="space-y-4">
             <div className="flex items-center">
-              <img src="public/logos/icon.png" alt="FINTEK Logo" className="h-10 w-auto mr-2" />
+              <img src="logos/icon.png" alt="FINTEK Logo" className="h-10 w-auto mr-2" />
               <span className="font-bold text-xl">FINTEK</span>
             </div>
             <p className="text-gray-400">
