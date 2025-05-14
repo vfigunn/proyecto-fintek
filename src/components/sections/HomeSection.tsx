@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 
 const HomeSection = () => {
   return (
-    <section id="inicio" className="min-h-screen flex items-center pt-16 bg-gradient-to-b from-white to-blue-50 section-padding">
-      <div className="container mx-auto px-4">
+    <section id="inicio" className="min-h-screen flex items-center pt-16 bg-gradient-to-b from-white to-blue-50 section-padding" >
+      <div className="container mx-auto px-4 h-full">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <div className="mb-6 inline-block">
@@ -42,7 +42,7 @@ const HomeSection = () => {
             <div className="relative">
               <div className="absolute -z-10 w-84 h-84 bg-blue-100 rounded-full blur-3xl opacity-70"></div>
               <img 
-                src="assets/mockup2.png" 
+                src="assets/Dashboard1.png" 
                 alt="FINTEK Logo" 
                 className="relative rounded-lg hover:shadow-2xl z-10 w-md"
               />

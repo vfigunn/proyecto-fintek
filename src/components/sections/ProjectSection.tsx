@@ -161,9 +161,9 @@ const ProjectSection = () => {
               <CardContent>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-3">
-                    <h3 className="font-semibold text-indigo-800">Diagrama de Clases</h3>
+                    <h3 className="font-semibold text-indigo-800">Notebook</h3>
                     <img 
-                      src="assets/6922f279-dde4-4510-9978-387c8b7bae9b.png" 
+                      src="assets/mockup2.png" 
                       alt="Diagrama de Clases" 
                       className="rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300"
                     />
