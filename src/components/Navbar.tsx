@@ -33,9 +33,9 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { name: 'HOME', path: '#home', icon: <Home className="w-4 h-4 mr-1" /> },
-    { name: 'PROJECT', path: '#project', icon: <FileImage className="w-4 h-4 mr-1" /> },
-    { name: 'TEAM', path: '#team', icon: <Users className="w-4 h-4 mr-1" /> }
+    { name: 'Inicio', path: '#inicio', icon: <Home className="w-4 h-4 mr-1" /> },
+    { name: 'Proyecto', path: '#proyecto', icon: <FileImage className="w-4 h-4 mr-1" /> },
+    { name: 'Equipo', path: '#equipo', icon: <Users className="w-4 h-4 mr-1" /> }
   ];
 
   return (
@@ -43,8 +43,8 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <img src="public/lovable-uploads/42ff3509-53ab-40ee-a25f-54d731fed6bc.png" alt="FINTEK Logo" className="h-10 w-auto mr-2" />
-            <span className="font-bold text-xl text-fintek-blue-dark">FINTEK</span>
+            <img src="public/logos/icon.png" alt="FINTEK Logo" className="h-10 w-auto mr-2" />
+            <span className="font-bold text-xl text-fintek-black-dark"><a href="#inicio">FINTEK</a></span>
           </div>
 
           {/* Desktop Navigation */}
@@ -53,7 +53,7 @@ const Navbar = () => {
               <a
                 key={index}
                 href={link.path}
-                className="font-medium text-sm text-gray-700 hover:text-fintek-blue flex items-center transition duration-300"
+                className="font-medium text-sm text-gray-700 hover:text-blue-800 flex items-center transition duration-300"
               >
                 {link.icon}
                 {link.name}
@@ -106,7 +106,7 @@ const Navbar = () => {
                   key={index}
                   href={link.path}
                   onClick={closeMobileMenu}
-                  className="flex items-center px-2 py-2 text-base font-medium text-gray-900 hover:bg-gray-100 rounded-md"
+                  className="flex items-center px-2 py-2 text-base font-medium text-gray-900 hover:bg-gray-100 rounded-md hover:text-white hover:bg-indigo-500"
                 >
                   {link.icon}
                   <span className="ml-2">{link.name}</span>
