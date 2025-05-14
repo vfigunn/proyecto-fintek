@@ -51,7 +51,7 @@ const TeamSection = () => {
       name: "Valentín Figún",
       role: "Estudiante / Desarrollador",
       bio: "Especializado en el diseño de la arquitectura del sistema y el desarrollo de la lógica de negocio. Responsable de la implementación del módulo de inversiones.",
-      image: "public/assets/valentin.png",
+      image: "assets/valentin.png",
       linkedin:"https://www.linkedin.com/in/valentinfigun/",
       github: "github.com/vfigunn"
     },
@@ -59,7 +59,7 @@ const TeamSection = () => {
       name: "Matías Valentino Morales",
       role: "Estudiante / Desarrollador",
       bio: "Encargado del desarrollo de interfaces de usuario y la integración de componentes. Responsable de las pruebas y aseguramiento de calidad del sistema.",
-      image: "public/assets/matias.jpg",
+      image: "assets/matias.jpg",
       linkedin:"https://www.linkedin.com/in/matiasvmorales/",
       github:"https://github.com/matiasvalentino"
     },
@@ -67,7 +67,7 @@ const TeamSection = () => {
       name: "Paula Rocío Haunau",
       role: "Estudiante / Desarrolladora",
       bio: "Especializada en análisis de requerimientos y documentación técnica. Responsable del diseño de la experiencia de usuario y la redacción de manuales.",
-      image: "public/assets/paula.jpg",
+      image: "assets/paula.jpg",
       linkedin:"https://www.linkedin.com/in/paula-rocio-haunau/",
       github:"https://github.com/phaunau"
     }

@@ -43,7 +43,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <img src="public/logos/icon.png" alt="FINTEK Logo" className="h-10 w-auto mr-2" />
+            <img src="logos/icon.png" alt="FINTEK Logo" className="h-10 w-auto mr-2" />
             <span className="font-bold text-xl text-fintek-black-dark"><a href="#inicio">FINTEK</a></span>
           </div>
 

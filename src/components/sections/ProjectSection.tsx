@@ -163,7 +163,7 @@ const ProjectSection = () => {
                   <div className="space-y-3">
                     <h3 className="font-semibold text-indigo-800">Diagrama de Clases</h3>
                     <img 
-                      src="public/assets/6922f279-dde4-4510-9978-387c8b7bae9b.png" 
+                      src="assets/6922f279-dde4-4510-9978-387c8b7bae9b.png" 
                       alt="Diagrama de Clases" 
                       className="rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300"
                     />
@@ -172,7 +172,7 @@ const ProjectSection = () => {
                   <div className="space-y-3">
                     <h3 className="font-semibold text-indigo-800">Casos de Uso</h3>
                     <img 
-                      src="public/assets/c9a84763-be5c-4373-bb5a-dd497a7d2454.png" 
+                      src="assets/c9a84763-be5c-4373-bb5a-dd497a7d2454.png" 
                       alt="Casos de Uso" 
                       className="rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300"
                     />
@@ -181,7 +181,7 @@ const ProjectSection = () => {
                   <div className="space-y-3 md:col-span-2">
                     <h3 className="font-semibold text-indigo-800">Diagramas de Secuencia</h3>
                     <img 
-                      src="public/assets/79090f3e-3c80-4ddf-9e9d-a256d3bab74e.png" 
+                      src="assets/79090f3e-3c80-4ddf-9e9d-a256d3bab74e.png" 
                       alt="Diagramas de Secuencia" 
                       className="rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300"
                     />
@@ -190,7 +190,7 @@ const ProjectSection = () => {
                   <div className="space-y-3">
                     <h3 className="font-semibold text-indigo-800">Diagramas de Actividades</h3>
                     <img 
-                      src="public/assets/3bf38640-56c9-4d14-9daf-8a91e1350e3a.png" 
+                      src="assets/3bf38640-56c9-4d14-9daf-8a91e1350e3a.png" 
                       alt="Diagramas de Actividades" 
                       className="rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300"
                     />
@@ -199,7 +199,7 @@ const ProjectSection = () => {
                   <div className="space-y-3">
                     <h3 className="font-semibold text-indigo-800">Diagrama de Componentes</h3>
                     <img 
-                      src="public/assets/8469cb43-96b6-487d-95f6-1fa7d7961d6a.png" 
+                      src="assets/8469cb43-96b6-487d-95f6-1fa7d7961d6a.png" 
                       alt="Diagrama de Componentes" 
                       className="rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300"
                     />
