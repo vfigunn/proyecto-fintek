@@ -181,7 +181,7 @@ const ProjectSection = () => {
                   <div className="space-y-3 md:col-span-2">
                     <h3 className="font-semibold text-indigo-800">Diagramas de Secuencia</h3>
                     <img 
-                      src="assets/79090f3e-3c80-4ddf-9e9d-a256d3bab74e.png" 
+                      src="assets/poster.jpeg" 
                       alt="Diagramas de Secuencia" 
                       className="rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300"
                     />
