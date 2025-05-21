@@ -8,7 +8,7 @@ const ProjectSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">El Proyecto FINTEK</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Una solución informática para administrar finanzas personales, desarrollada como parte de la materia 
             Práctica Profesionalizante II en la Tecnicatura Superior en Análisis y Desarrollo de Software.
           </p>
@@ -161,7 +161,7 @@ const ProjectSection = () => {
               <CardContent>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-3">
-                    <h3 className="font-semibold text-indigo-800">Notebook</h3>
+                    <h3 className="font-semibold text-indigo-800"></h3>
                     <img 
                       src="assets/mockup2.png" 
                       alt="Diagrama de Clases" 
@@ -170,9 +170,9 @@ const ProjectSection = () => {
                   </div>
                   
                   <div className="space-y-3">
-                    <h3 className="font-semibold text-indigo-800">Casos de Uso</h3>
+                    <h3 className="font-semibold text-indigo-800"></h3>
                     <img 
-                      src="assets/c9a84763-be5c-4373-bb5a-dd497a7d2454.png" 
+                      src="assets/mockup.png" 
                       alt="Casos de Uso" 
                       className="rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300"
                     />
@@ -188,18 +188,18 @@ const ProjectSection = () => {
                   </div>
                   
                   <div className="space-y-3">
-                    <h3 className="font-semibold text-indigo-800">Diagramas de Actividades</h3>
+                    <h3 className="font-semibold text-indigo-800"></h3>
                     <img 
-                      src="assets/3bf38640-56c9-4d14-9daf-8a91e1350e3a.png" 
+                      src="assets/iphonemockup.png" 
                       alt="Diagramas de Actividades" 
                       className="rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300"
                     />
                   </div>
                   
                   <div className="space-y-3">
-                    <h3 className="font-semibold text-indigo-800">Diagrama de Componentes</h3>
+                    <h3 className="font-semibold text-indigo-800"></h3>
                     <img 
-                      src="assets/8469cb43-96b6-487d-95f6-1fa7d7961d6a.png" 
+                      src="assets/iphonemockup2.png" 
                       alt="Diagrama de Componentes" 
                       className="rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300"
                     />
@@ -207,7 +207,7 @@ const ProjectSection = () => {
                 </div>
               </CardContent>
               <CardFooter className="flex justify-center">
-                <p className="text-sm text-gray-500">Los diagramas muestran la estructura y funcionamiento del sistema FINTEK</p>
+                <p className="text-sm text-gray-500"></p>
               </CardFooter>
             </Card>
           </TabsContent>

@@ -42,7 +42,7 @@ const HomeSection = () => {
             <div className="relative">
               <div className="absolute -z-10 w-84 h-84 bg-blue-100 rounded-full blur-3xl opacity-70"></div>
               <img 
-                src="assets/Dashboard1.png" 
+                src="assets/mockup.png" 
                 alt="FINTEK Logo" 
                 className="relative rounded-lg hover:shadow-2xl z-10 w-md"
               />
