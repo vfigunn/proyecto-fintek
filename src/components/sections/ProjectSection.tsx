@@ -15,9 +15,10 @@ const ProjectSection = () => {
         </div>
 
         <Tabs defaultValue="descripcion" className="w-full max-w-4xl mx-auto animate-fade-in">
-          <TabsList className="grid grid-cols-3 mb-8 bg-gray-100">
+          <TabsList className="grid grid-cols-4 mb-8 bg-gray-100">
             <TabsTrigger value="descripcion" className="hover:bg-indigo-800 hover:text-white">Descripción</TabsTrigger>
             <TabsTrigger value="objetivos" className="hover:bg-indigo-800 hover:text-white">Objetivos</TabsTrigger>
+            <TabsTrigger value="poster" className="hover:bg-indigo-800 hover:text-white">Póster</TabsTrigger>
             <TabsTrigger value="pantallas" className="hover:bg-indigo-800 hover:text-white">Pantallas</TabsTrigger>
           </TabsList>
           <TabsContent value="descripcion">
@@ -153,6 +154,29 @@ const ProjectSection = () => {
             </Card>
           </TabsContent>
           
+          <TabsContent value="poster">
+            <Card>
+              <CardHeader className="flex text-center">
+                <CardTitle>Póster Académico</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="space-y-3 md:col-span-2">
+                    <img 
+                      src="assets/poster.png" 
+                      alt="Diagramas de Secuencia" 
+                      className="rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300"
+                    />
+                  </div>
+                </div>
+              </CardContent>
+              <CardFooter className="flex justify-center">
+                <p className="text-sm text-gray-500"></p>
+              </CardFooter>
+            </Card>
+          </TabsContent>
+
+
           <TabsContent value="pantallas">
             <Card>
               <CardHeader className="flex text-center">
@@ -174,15 +198,6 @@ const ProjectSection = () => {
                     <img 
                       src="assets/mockup.png" 
                       alt="Casos de Uso" 
-                      className="rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300"
-                    />
-                  </div>
-                  
-                  <div className="space-y-3 md:col-span-2">
-                    <h3 className="font-semibold text-indigo-800">Diagramas de Secuencia</h3>
-                    <img 
-                      src="assets/poster.jpeg" 
-                      alt="Diagramas de Secuencia" 
                       className="rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300"
                     />
                   </div>
