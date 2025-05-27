@@ -67,7 +67,7 @@ const TeamSection = () => {
       name: "Paula Rocío Haunau",
       role: "Estudiante / Desarrolladora",
       bio: "Especializada en análisis de requerimientos y documentación técnica. Responsable del diseño de la experiencia de usuario y la redacción de manuales.",
-      image: "assets/paula.jpg",
+      image: "assets/paula.jpeg",
       linkedin:"https://www.linkedin.com/in/paula-rocio-haunau/",
       github:"https://github.com/phaunau"
     }
