@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const HomeSection = () => {
   return (
-    <section id="inicio" className="min-h-screen flex items-center pt-16 bg-gradient-to-b from-white to-blue-50 section-padding" >
+    <section id="inicio" className="min-h-screen flex items-center pt-16 bg-gradient-to-b from-white to-indigo-200 section-padding" >
       <div className="container mx-auto px-4 h-full">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">

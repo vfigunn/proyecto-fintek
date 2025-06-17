@@ -15,9 +15,10 @@ const ProjectSection = () => {
         </div>
 
         <Tabs defaultValue="descripcion" className="w-full max-w-4xl mx-auto animate-fade-in">
-          <TabsList className="grid grid-cols-4 mb-8 bg-gray-100">
+          <TabsList className="grid grid-cols-5 mb-8 bg-gray-100">
             <TabsTrigger value="descripcion" className="hover:bg-indigo-800 hover:text-white">Descripción</TabsTrigger>
             <TabsTrigger value="objetivos" className="hover:bg-indigo-800 hover:text-white">Objetivos</TabsTrigger>
+            <TabsTrigger value="presentacion" className="hover:bg-indigo-800 hover:text-white">Presentación</TabsTrigger>
             <TabsTrigger value="poster" className="hover:bg-indigo-800 hover:text-white">Póster</TabsTrigger>
             <TabsTrigger value="pantallas" className="hover:bg-indigo-800 hover:text-white">Pantallas</TabsTrigger>
           </TabsList>
@@ -153,6 +154,21 @@ const ProjectSection = () => {
               </CardContent>
             </Card>
           </TabsContent>
+
+          <TabsContent value="presentacion">
+            <Card>
+              <CardHeader className="flex text-center">
+                <CardTitle>Video Presentación</CardTitle>
+              </CardHeader>
+                            <CardContent>
+                <div className="grid grid-cols-1 md:grid-cols-1 gap-1">
+                  <div className="space-y-3 flex justify-center">
+                    <iframe width="750" height="415" src="https://www.youtube.com/embed/qPUKuEgkYZk?si=0YVoI1JAz4JZDWG3" title="Video Presentación" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </TabsContent>
           
           <TabsContent value="poster">
             <Card>
@@ -221,9 +237,6 @@ const ProjectSection = () => {
                   </div>
                 </div>
               </CardContent>
-              <CardFooter className="flex justify-center">
-                <p className="text-sm text-gray-500"></p>
-              </CardFooter>
             </Card>
           </TabsContent>
         </Tabs>
