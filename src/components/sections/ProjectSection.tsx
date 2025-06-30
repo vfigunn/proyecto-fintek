@@ -17,7 +17,7 @@ const ProjectSection = () => {
         <Tabs defaultValue="descripcion" className="w-full max-w-4xl mx-auto animate-fade-in">
           <TabsList className="grid grid-cols-5 mb-8 bg-gray-100">
             <TabsTrigger value="descripcion" className="hover:bg-indigo-800 hover:text-white">Descripción</TabsTrigger>
-            <TabsTrigger value="objetivos" className="hover:bg-indigo-800 hover:text-white">Objetivos</TabsTrigger>
+            <TabsTrigger value="links" className="hover:bg-indigo-800 hover:text-white">Links</TabsTrigger>
             <TabsTrigger value="presentacion" className="hover:bg-indigo-800 hover:text-white">Presentación</TabsTrigger>
             <TabsTrigger value="poster" className="hover:bg-indigo-800 hover:text-white">Póster</TabsTrigger>
             <TabsTrigger value="pantallas" className="hover:bg-indigo-800 hover:text-white">Pantallas</TabsTrigger>
@@ -57,26 +57,6 @@ const ProjectSection = () => {
                   </p>
                 </div>
 
-                <div className="mt-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
-                  <h3 className="text-lg font-semibold mb-3 text-indigo-800">Principales Funcionalidades</h3>
-                  <ul className="space-y-2 list-disc pl-5">
-                    <li className="text-gray-700">Gestión completa de ingresos, egresos, ahorros e inversiones</li>
-                    <li className="text-gray-700">Visualización gráfica de balances</li>
-                    <li className="text-gray-700">Reportes personalizados por período o categoría</li>
-                    <li className="text-gray-700">Creación y edición de metas de ahorro</li>
-                    <li className="text-gray-700">Interfaz intuitiva adaptada para usuarios sin conocimientos técnicos</li>
-                  </ul>
-                </div>
-              </CardContent>
-            </Card>
-          </TabsContent>
-          
-          <TabsContent value="objetivos">
-            <Card>
-              <CardHeader className="flex text-center">
-                <CardTitle>Objetivos del Proyecto</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-6">
                 <div>
                   <h3 className="text-lg font-semibold mb-2 text-indigo-800">Objetivos Generales</h3>
                   <p className="text-gray-700 mb-4">
@@ -150,6 +130,58 @@ const ProjectSection = () => {
                       <span className="text-gray-700">Usuarios sin conocimientos técnicos que requieren una herramienta intuitiva para el control de su economía personal</span>
                     </li>
                   </ul>
+                </div>
+
+                <div className="mt-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
+                  <h3 className="text-lg font-semibold mb-3 text-indigo-800">Principales Funcionalidades</h3>
+                  <ul className="space-y-2 list-disc pl-5">
+                    <li className="text-gray-700">Gestión completa de ingresos, egresos, ahorros e inversiones</li>
+                    <li className="text-gray-700">Visualización gráfica de balances</li>
+                    <li className="text-gray-700">Reportes personalizados por período o categoría</li>
+                    <li className="text-gray-700">Creación y edición de metas de ahorro</li>
+                    <li className="text-gray-700">Interfaz intuitiva adaptada para usuarios sin conocimientos técnicos</li>
+                  </ul>
+                </div>
+              </CardContent>
+            </Card>
+          </TabsContent>
+          
+          <TabsContent value="links">
+            <Card>
+              <CardHeader className="flex text-center">
+                <CardTitle>Links</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                <div>
+                  <h3 className="text-lg font-semibold mb-2 text-indigo-800">Visualizar y Descargar Proyecto Fintek</h3>
+                  Click <a href="https://docs.google.com/document/d/1WshWiO01JZfu9qQKFJSbA3k9W5dE8b16zS43kFDX6p8/edit?tab=t.0#heading=h.1315uwez6kkw" target="_blank" className="underline">aquí</a> para ver el Proyecto Fintek
+                  <br></br>
+                  <br></br>
+                  <a href="assets/Proyecto_Fintek.pdf" download="proyecto-fintek.pdf" target="_blank" className="underline">Descargar Proyecto Fintek</a>
+                </div>
+
+                <div>
+                  <h3 className="text-lg font-semibold mb-2 text-indigo-800">Visualizar Presentación</h3>
+                  Click <a href="https://youtu.be/qPUKuEgkYZk?si=LLX75DUvmnhHw5VH" target="_blank" className="underline">aquí</a> para ver la Presentación en YouTube
+                  <br></br>
+                  <br></br>
+                  <a href="assets/Presentacion_Fintek.pdf" download="presentacion-fintek.pdf" target="_blank" className="underline">Descargar PDF de la Presentación</a>
+                </div>
+
+                <div>
+                  <h3 className="text-lg font-semibold mb-2 text-indigo-800">Visualizar Resúmen del Proyecto</h3>
+                  Click <a href="https://docs.google.com/document/d/1n3iL2mjSakqHdhG8qzW1Mgppsu4RU804m4-l8V8rsvo/edit?tab=t.0" target="_blank" className="underline">aquí</a> para ver el resúmen del Proyecto
+                  <br></br>
+                  <br></br>
+                  <a href="assets/Resumen_Fintek.pdf" download="resumen-proyecto-fintek.pdf" target="_blank" className="underline">Descargar resúmen del Proyecto</a>
+                </div>
+
+                <div>
+                  <h3 className="text-lg font-semibold mb-2 text-indigo-800">Visualizar Diagramas del Proyecto</h3>
+                  Click <a href="https://drive.google.com/drive/folders/1InRDqmv-vnP-V_n1KdDc_ZIjkI6swTm7" target="_blank" className="underline">aquí</a> para ver los diagramas del Proyecto
+                  <br></br>
+                  <br></br>
+                  <a href="assets/Diagramas_proyecto_fintek.zip" download="diagramas-proyecto-fintek.pdf" target="_blank" className="underline">Descargar diagramas del Proyecto</a>
                 </div>
               </CardContent>
             </Card>
