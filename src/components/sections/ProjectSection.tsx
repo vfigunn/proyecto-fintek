@@ -208,6 +208,7 @@ const ProjectSection = () => {
                 <CardTitle>Póster Académico</CardTitle>
               </CardHeader>
               <CardContent>
+                
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-3 md:col-span-2">
                     <img 
@@ -217,9 +218,12 @@ const ProjectSection = () => {
                     />
                   </div>
                 </div>
+
               </CardContent>
               <CardFooter className="flex justify-center">
-                <p className="text-sm text-gray-500"></p>
+                <div className="flex justify-center">
+                  <a href="assets/Poster_Academico.pdf" download="poster-academico-fintek.pdf" target="_blank" className="underline">Descargar Póster Académico</a>
+                </div>
               </CardFooter>
             </Card>
           </TabsContent>
